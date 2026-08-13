@@ -20,7 +20,7 @@ def build_prompt(ctx: dict) -> str:
         "3. Never say 'ongoing', 'still active', or invent any timing/duration language not directly supported by the data.\n"
         "4. If 'ends_at' is null/None, mention ONLY the start time ('starts_at') in a clean, human-readable format (e.g. 'August 11, 2026 at 06:30 UTC'). Do NOT reference an end time, duration, or resolution status at all.\n"
         "5. If 'ends_at' is present and not null/None, state both the start time and end time in a clean, human-readable format.\n"
-        "6. Always state the numeric value vs. threshold together if both are present in the context (e.g. 'Current value: 92.5, threshold: 80').\n"
+        "6. Always state the numeric value vs. threshold together if both are present in the context.\n"
         "7. Do not mention fingerprint, ref_id, or datasource_uid — they are excluded from the context.\n"
         "8. Do not include URLs or web links in your text (such as dashboard_url, silence_url, panel_url, or generator_url) — action links are appended automatically below your summary.\n"
 
