@@ -34,6 +34,8 @@ SAMPLE_SWAGGER_PAYLOAD = {
             "values": {"A": 92.5},
             "valueString": "92.5",
             "dashboardURL": "https://grafana.example.com/d/infrastructure",
+            "panelURL": "https://grafana.example.com/d/infrastructure",
+            "generatorURL": "https://grafana.example.com/d/infrastructure",
             "silenceURL": "https://grafana.example.com/alerting/silence/new",
             "title": "High CPU Usage",
         }
